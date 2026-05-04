@@ -69,6 +69,10 @@ project_student_full_name/
 - **Resolution:** 150 × 150 pixels (not resized)
 - **Balance:** Perfectly balanced — exactly 10,000 training samples per class
 
+## Dataset Source
+
+The gravitational lensing simulation dataset is from **Kaggle**. Images are produced by ray-tracing simulations of strong gravitational lensing with varying mass substructure configurations. The dataset is publicly available at https://www.kaggle.com/datasets/abhirajraje/lensing-data.
+
 ### Data Folder (data/)
 
 The `data/` directory contains **10 representative JPG images per class (30 total)** extracted directly from the dataset in its **original format** — grayscale, 150×150 pixels, not resized or post-processed. Each image is saved as a `.jpg` file at 95% quality, matching the resolution and appearance of the raw .npy dataset.
@@ -467,6 +471,4 @@ All experiments use `seed=42` (set in `config.py`). The training script seeds `t
 
 ---
 
-## Dataset Source
 
-The gravitational lensing simulation dataset is from **Kaggle**. Images are produced by ray-tracing simulations of strong gravitational lensing with varying mass substructure configurations. The dataset is publicly available at https://www.kaggle.com/datasets/abhirajraje/lensing-data.
