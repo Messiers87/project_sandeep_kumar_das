@@ -1,7 +1,4 @@
 # =============================================================================
-# predict.py
-# CNN Pipeline for Strong Gravitational Lens Substructure Classification
-# =============================================================================
 # Provides:
 #   • predict_function  – accepts a list of file paths, returns predicted labels
 #                         (also returns softmax probabilities as BONUS)

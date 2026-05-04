@@ -1,7 +1,4 @@
 # =============================================================================
-# model.py
-# CNN Pipeline for Strong Gravitational Lens Substructure Classification
-# =============================================================================
 # Provides:
 #   • GravitationalLensCNN    – custom baseline CNN  (primary model)
 #   • GravitationalLensResNet – ResNet-18 transfer-learning variant (BONUS)

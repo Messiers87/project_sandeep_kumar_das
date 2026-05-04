@@ -1,7 +1,4 @@
 # =============================================================================
-# interface.py
-# CNN Pipeline for Strong Gravitational Lens Substructure Classification
-# =============================================================================
 
 # This file exposes a unified, alias-stable API that the auto-grader depends on.
 # Every symbol is imported under its required alias exactly as specified in the

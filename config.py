@@ -1,9 +1,5 @@
 # =============================================================================
-# config.py
-# CNN Pipeline for Strong Gravitational Lens Substructure Classification
-# =============================================================================
 # All hyperparameters and project-wide configuration constants are defined here.
-# Import from this file instead of hardcoding values elsewhere.
 # =============================================================================
 
 import torch
