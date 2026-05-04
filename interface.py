@@ -1,10 +1,3 @@
-# =============================================================================
-
-# This file exposes a unified, alias-stable API that the auto-grader depends on.
-# Every symbol is imported under its required alias exactly as specified in the
-# project submission requirements.
-# =============================================================================
-
 # ── Model ──────────────────────────────────────────────────────────────────
 from model import GravitationalLensCNN as TheModel
 
@@ -21,15 +14,6 @@ from dataset import get_dataloader as the_dataloader
 # ── Hyperparameters ────────────────────────────────────────────────────────
 from config import batch_size as the_batch_size
 from config import epochs as total_epochs
-
-# =============================================================================
-# Additional exports (available for convenience but not graded)
-# =============================================================================
-from config import learning_rate, num_classes, input_channels, resize_x, resize_y
-from config import device, checkpoint_path, class_names
-from model  import GravitationalLensResNet          # BONUS: transfer-learning model
-from train  import evaluate_model                   # BONUS: metrics helper
-from predict import load_model                      # weight-loading utility
 
 # =============================================================================
 # Quick interface sanity check  (run as script to verify all imports resolve)

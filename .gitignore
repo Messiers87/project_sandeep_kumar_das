@@ -1,3 +1,2 @@
 data/*.npy
-generate_samples.py
 *.ipynb
