@@ -2,26 +2,6 @@
 
 A deep learning pipeline that classifies simulated strong gravitational lensing images into three physical substructure categories using PyTorch. This project includes a custom baseline CNN with residual blocks and SE attention, a fixed ResNet-18 transfer learning variant, a full training/evaluation framework, and a Colab-ready training notebook.
 
----
-
-## 📋 Table of Contents
-
-1. [Project Overview](#1-project-overview)
-2. [Repository Structure](#2-repository-structure)
-3. [Dataset Description](#3-dataset-description)
-4. [Classes & Physical Meaning](#4-classes--physical-meaning)
-5. [Model Architectures](#5-model-architectures)
-6. [Installation](#6-installation)
-7. [How to Run](#7-how-to-run)
-8. [Training in Google Colab](#8-training-in-google-colab)
-9. [File-by-File Reference](#9-file-by-file-reference)
-10. [Interface Mapping (Auto-grader)](#10-interface-mapping-auto-grader)
-11. [Hyperparameters](#11-hyperparameters)
-12. [Augmentation Strategy](#12-augmentation-strategy)
-13. [Results & Comparisons](#13-results--comparisons)
-14. [Reproducing Results](#14-reproducing-results)
-
----
 
 ## 1. Project Overview
 
